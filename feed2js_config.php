@@ -42,7 +42,7 @@ $date_format = "F d, Y h:i:s a";
 // default timezone for your instance, can override server setting
 // see http://www.php.net/manual/en/timezones.php
 
-date_default_timezone_set('America/New_York');
+date_default_timezone_set('Europe/Berlin');
 
 // server time zone offset from GMT
 // If this line generates errors (common on Windoze servers,
@@ -66,10 +66,10 @@ error_reporting(0);
 // Example: .example.org => allows www.example.org and other.example.org
 
 // remove the comment here to activate url restriction
-//$restrict_url = ".example.org";
+$restrict_url = ".bib.uni-mannheim.de";
 
 // comment out this line to activate url restriction
-unset($restrict_url);
+//unset($restrict_url);
 
 
 // Utility to remove return characters from strings that might
